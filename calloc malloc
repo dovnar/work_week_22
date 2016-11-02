@@ -1,0 +1,12 @@
+char* malloc
+char* calloc
+
+int* array = (int*)malloc(10*sizeof(int));
+char* array = malloc(10);
+
+int* mas = calloc(10, sizeof(int)); //memset( ,0, );
+
+realloc(mas, 20 * sizeof(int));
+
+free(array);
+free(mas);
